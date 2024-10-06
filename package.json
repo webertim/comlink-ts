@@ -4,7 +4,7 @@
   "description": "A js library for connecting to swgoh-comlink and associated swgoh-utils",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build && npx jest",
+    "test": "npx jest",
     "build": "tsc"
   },
   "repository": {
