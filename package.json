@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
-    "@types/jest": "^29.5.13",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "jest": "^28.1.1",
     "semantic-release": "^19.0.3",
