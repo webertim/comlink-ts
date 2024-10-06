@@ -12,6 +12,6 @@
     "noImplicitAny": true,                               /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     "resolveJsonModule": true                            /* Enable importing .json files */
   },
-  "include": ["index.test.ts", "index.ts"],
+  "include": ["index.ts"],
   "exclude": ["node_modules", "dist"]
 }

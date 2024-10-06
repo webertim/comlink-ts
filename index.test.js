@@ -1,6 +1,6 @@
 jest.mock('got');
-import got from 'got';
-import ComlinkStub from './index';
+const got = require('got');
+const ComlinkStub = require('./dist/index.js').default;
 
 const accessKey = 'my-access-key';
 const secretKey = 'my-secret-key';
