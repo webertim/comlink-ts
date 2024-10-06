@@ -66,7 +66,7 @@ function signPostRequest(
   }
 }
 
-export default class ComlinkStub {
+class ComlinkStub {
   url: string;
   statsUrl: string;
   accessKey: string;
@@ -272,3 +272,5 @@ export default class ComlinkStub {
     return await this._postRequestPromiseAPI(`/playerArena`, requestObject);
   }
 };
+
+module.exports = ComlinkStub;
